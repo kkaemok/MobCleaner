@@ -1,0 +1,9 @@
+name: mobcleaner
+version: '1.2'
+main: org.kkaemok.mobcleaner.Mobcleaner
+api-version: '1.21'
+commands:
+  몹정리:
+    description: 방치된 몹을 즉시 정리합니다.
+    usage: /몹정리
+    permission: mobcleaner.admin

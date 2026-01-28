@@ -1,0 +1,15 @@
+# 몹 정리 주기 (분 단위)
+cleanup-interval-minutes: 15
+
+# 정리 시 전체 메시지 공지 여부
+broadcast-message: true
+
+# 삭제 제외 대상 (영문 대문자로 작성)
+# "ALL"을 넣으면 모든 삭제 기능이 중지됩니다.
+ignored-mobs:
+  - "WITHER"
+  - "ENDER_DRAGON"
+  - "ELDER_GUARDIAN"
+  - "SHULKER"
+  - "VEX"
+  - "WARDEN"
